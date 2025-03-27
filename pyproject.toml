@@ -6,8 +6,9 @@ authors = [
     {name = "Harikrishnan",email = "meethkr@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = [
+    "numpy (>=2.2.4,<3.0.0)"
 ]
 
 [tool.poetry]
