@@ -5,7 +5,7 @@ from gym_log.ui.show_exercise_statistics import ShowExerciseStatistics
 class MainWindow(tk.Tk):
     def __init__(self):
         super().__init__()
-        self. geometry('600x300')
+        self.geometry('600x300')
         self.container_frame = tk.Frame(self)
         self.container_frame.pack(fill="both", expand=True)
         self.draw_home()
