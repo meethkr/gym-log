@@ -57,8 +57,4 @@ class MainWindow(tk.Tk):
         for widget in self.container_frame.winfo_children():
             widget.destroy()
         ShowExerciseStatistics(self.container_frame, self.show_home).pack()
-
-
-
-mw = MainWindow()
-mw.mainloop()
+        
